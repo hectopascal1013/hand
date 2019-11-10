@@ -1,0 +1,32 @@
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>サンプル</title>
+  <script>
+	  function setValue1(idname){
+  //テキストボックスオブジェクトを取得する
+   obj = document.getElementById(idname);
+
+  //valueに値をセットする
+  obj.value = "hogehoge";
+  //alert(obj.value);
+}
+
+	  function setValue2(idname){
+  //テキストボックスオブジェクトを取得する
+  var obj2 = document.getElementById(idname);
+
+  //valueに値をセットする
+  //alert(obj.value);
+  obj2.value = "hagehage";
+}
+
+
+  </script>
+</head>
+<body>
+  <input type="text" id="txt2" value="" placeholder="hoge">
+  <input type="button" value="ボタン" onclick="setValue1('txt2');">
+  <input type="button" value="ボタン" onclick="setValue2('txt2');">
+</body>
+</html>
