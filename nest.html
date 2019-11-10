@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Canvas triangle 5center</title>
+    <!--   //<link rel="stylesheet" href="css/styles.css"> -->
+    <style>
+
+    </style>
+
+<script type="text/javascript">
+function funcA( $varA, $varB ) {
+    var obj=document.getElementById("x").value=obj;
+    obj.value=123;
+
+    function funcB() {
+        document.write( "<p>funcB</p>" );
+    }
+    funcB();
+
+}
+funcA();
+</script>
+
+</head>
+
+<body>
+    <div id="container">
+        <form>
+	        <input type="button" id="btna" value="buttonA" size="4" onclick="funcA('x');">
+            <input type="text" id="x" value="" placeholder="x" size="4">
+            <input type="button" id="btnb" value="buttonB" size="4" onclick="funcA('y');">
+            <input type="text" id="y" value="" placeholder="y" size="4">
+        </form>
+    </div>
+</body>
+
+</html>
